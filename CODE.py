@@ -15,7 +15,7 @@ with open(ENCODER_PATH, "rb") as f:
     le = pickle.load(f)
 
 # Model and tokenizer
-print("✅ Loading ALBERT model and tokenizer...")
+print("Loading ALBERT model and tokenizer...")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_DIR)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
