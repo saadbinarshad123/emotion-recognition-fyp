@@ -1,0 +1,64 @@
+Text-Based Emotion Recognition — Instructions
+
+Hi! Thanks for checking out this project.
+
+This is a simple application that predicts emotions from text using a trained deep learning model. Follow the steps below to run it properly.
+
+---
+
+DOWNLOAD REQUIRED FILES
+
+The dataset and model are not included in this folder.
+
+Download them from here:
+
+Dataset:
+https://drive.google.com/file/d/1buJsUbP9puyuewmG_TZ0DgjOQU2Zunef/view?usp=sharing
+
+Model Folder:
+https://drive.google.com/drive/folders/1f-NtQfes5SSwm4mvrE_13sGvlohWXa9y?usp=sharing
+
+After downloading:
+→ Place the model folder in the same directory as CODE.py
+
+---
+
+REQUIREMENTS
+
+Make sure Python 3.10 or later is installed.
+
+Install required libraries using:
+
+pip install -r requirements.txt
+
+---
+
+HOW TO RUN
+
+1. Open the project folder
+2. Make sure the model folder is placed correctly
+3. Run:
+
+python CODE.py
+
+The application window will open.
+
+---
+
+HOW TO USE
+
+1. Enter text in the input box
+2. Click "Predict Emotion"
+3. The predicted emotion will appear in a popup
+
+---
+
+NOTES
+
+* Works on CPU (no GPU needed)
+* Do not rename the model folder
+* If you face issues, check that all libraries are installed
+
+---
+
+— Saad Bin Arshad
